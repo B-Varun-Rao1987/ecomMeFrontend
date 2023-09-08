@@ -5,7 +5,8 @@ import {
 } from "../constants/cartConstants";
 import axios from "axios";
 
-const BaseUrl="http://localhost:4000";
+const BaseUrl="https://ecommerceme-api.onrender.com";
+// const BaseUrl="http://localhost:4000";
 // const BaseUrl=process.env.DB_BASE_URL;
 
 // Add to Cart

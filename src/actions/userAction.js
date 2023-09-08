@@ -38,8 +38,8 @@ import {
 } from "../constants/userConstants";
 import axios from "axios";
 
-// const BaseUrl=process.env.DB_BASE_URL;
-const BaseUrl="http://localhost:4000";
+const BaseUrl="https://ecommerceme-api.onrender.com";
+// const BaseUrl="http://localhost:4000";
 
 // Login
 export const login = (email, password) => async (dispatch) => {

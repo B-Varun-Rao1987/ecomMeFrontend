@@ -31,7 +31,8 @@ import {
   CLEAR_ERRORS,
 } from "../constants/productConstants";
 
-const BaseUrl="http://localhost:4000";
+const BaseUrl="https://ecommerceme-api.onrender.com";
+// const BaseUrl="http://localhost:4000";
 
 // Get All Products
 export const getProduct =
